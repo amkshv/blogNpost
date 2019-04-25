@@ -18,27 +18,26 @@
       </div>
       <nav class="navigation">
         <ul class="navigation__list">
-          <li class="navigation__list-item">
-            <a href="#">home</a>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">home</a>
           </li>
-          <li class="navigation__list-item">
-            <a href="#">blog</a>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">blog</a>
           </li>
-          <li class="navigation__list-item">
-            <a href="#">about</a>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">about</a>
           </li>
-          <li class="navigation__list-item">
-            <a href="#">contact</a>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">contact</a>
           </li>
         </ul>
+        <input class="navigation__search" type="image" src="../img/search.png"></input>
       </nav>
     </div>
   </header>
   <div class="header-background">
-    <div class="header-background__blue">
-      <div class="container">
-        <h1>blog</h1>
-      </div>
+    <div class="container">
+      <h1>blog</h1>
     </div>
   </div>
 
@@ -47,12 +46,109 @@
       <div class="contents">
         <section class="blog">
           <a href="" class="blog__date">20.04.2019</a>
-          <img src="" alt="">
-          <a href="">title</a>
+          <img src="../img/item1.jpg" alt="item1" class="blog__image">
+          <span class="blog__autor">by <a href="">David Hyman</a> / 340 views</span>
+          <p class="blog__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, corrupti. Inventore quam non nostrum, facilis deleniti similique repellat, magnam consequuntur delectus aspernatur recusandae. Corporis assumenda, obcaecati ratione asperiores minus quidem.</p>
+        </section>
+        <section class="blog">
+          <a href="" class="blog__date">20.04.2019</a>
+          <img src="../img/item2.jpg" alt="item2" class="blog__image">
+          <span class="blog__autor">by <a href="">David Hyman</a> / 340 views</span>
+          <p class="blog__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, corrupti. Inventore quam non nostrum, facilis deleniti similique repellat, magnam consequuntur delectus aspernatur recusandae. Corporis assumenda, obcaecati ratione asperiores minus quidem.</p>
+        </section>
+        <section class="blog">
+          <a href="" class="blog__date">20.04.2019</a>
+          <img src="../img/item3.jpg" alt="item3" class="blog__image">
+          <span class="blog__autor">by <a href="">David Hyman</a> / 340 views</span>
+          <p class="blog__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, corrupti. Inventore quam non nostrum, facilis deleniti similique repellat, magnam consequuntur delectus aspernatur recusandae. Corporis assumenda, obcaecati ratione asperiores minus quidem.</p>
+        </section>
+        <section class="blog">
+          <a href="" class="blog__date">20.04.2019</a>
+          <img src="../img/item4.jpg" alt="item4" class="blog__image">
+          <span class="blog__autor">by <a href="">David Hyman</a> / 340 views</span>
+          <p class="blog__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, corrupti. Inventore quam non nostrum, facilis deleniti similique repellat, magnam consequuntur delectus aspernatur recusandae. Corporis assumenda, obcaecati ratione asperiores minus quidem.</p>
+        </section>
+        <section class="blog">
+          <a href="" class="blog__date">20.04.2019</a>
+          <img src="../img/item5.jpg" alt="item5" class="blog__image">
+          <span class="blog__autor">by <a href="">David Hyman</a> / 340 views</span>
+          <p class="blog__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, corrupti. Inventore quam non nostrum, facilis deleniti similique repellat, magnam consequuntur delectus aspernatur recusandae. Corporis assumenda, obcaecati ratione asperiores minus quidem.</p>
         </section>
       </div>
       <aside class="sidebar">
-
+        <!-- SIDEBAR SEARCH -->
+        <div class="sidebar-search">
+          <label for="sidebar-search" class="sidebar-search__label">Search</label>
+          <input class="sidebar-search__input" type="text" placeholder="Enter your keayword">
+        </div>
+        <!-- SIDEBAR POPULARS -->
+        <div class="sidebar-populars">
+          <h3 class="sidebar-title">Populars</h3>
+          <ul class="sidebar-popular__list">
+            <li class="sidebar-popular__item"><a href="" class="sidebar-popular__link">Management</a></li>
+            <li class="sidebar-popular__item"><a href="" class="sidebar-popular__link">SEO</a></li>
+            <li class="sidebar-popular__item"><a href="" class="sidebar-popular__link">Soft Skills</a></li>
+            <li class="sidebar-popular__item"><a href="" class="sidebar-popular__link">SEO</a></li>
+            <li class="sidebar-popular__item"><a href="" class="sidebar-popular__link">SEO</a></li>
+            <li class="sidebar-popular__item"><a href="" class="sidebar-popular__link">SEO</a></li>
+          </ul>
+        </div>
+        <!-- SIDEBAR POSTS -->
+        <div class="sidebar-posts">
+          <h3 class="sidebar-title">Populars</h3>
+          <ul class="sidebar-posts__list">
+            <li class="sidebar-posts__item">
+              <a href="" class="sidebar-posts__link">
+                <div class="sidebar-posts__block">
+                  <img src="../img/aside1.jpg" alt="" class="sidebar-posts__image">
+                  <p class="sidebar-posts__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ex iusto quaerat dolor delectus ad a tenetur consequuntur aliquam, distinctio, dicta magnam non ipsam pariatur veritatis maiores porro amet natus?</p>
+                </div>
+              </a>
+            </li>
+            <li class="sidebar-posts__item">
+              <a href="" class="sidebar-posts__link">
+                <div class="sidebar-posts__block">
+                  <img src="../img/aside2.jpg" alt="" class="sidebar-posts__image">
+                  <p class="sidebar-posts__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates expedita harum tenetur officia, doloremque distinctio odit eligendi obcaecati totam suscipit ex error quam tempora at quae dicta perferendis vitae veniam?</p>
+                </div>
+              </a>
+            </li>
+            <li class="sidebar-posts__item">
+              <a href="" class="sidebar-posts__link">
+                <div class="sidebar-posts__block">
+                  <img src="../img/aside3.jpg" alt="" class="sidebar-posts__image">
+                  <p class="sidebar-posts__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati possimus iusto, consequatur fuga totam explicabo sunt numquam reiciendis minus esse tempora ullam deleniti hic recusandae enim facilis veniam dicta. Rerum?</p>
+                </div>
+              </a>
+            </li>
+            <li class="sidebar-posts__item">
+              <a href="" class="sidebar-posts__link">
+                <div class="sidebar-posts__block">
+                  <img src="../img/aside4.jpg" alt="" class="sidebar-posts__image">
+                  <p class="sidebar-posts__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus velit quisquam dolorem explicabo placeat beatae tempora quos maxime enim est? Sequi ratione esse hic. Consequatur cupiditate ex ullam sapiente minima.</p>
+                </div>
+              </a>
+            </li>
+            <li class="sidebar-posts__item">
+              <a href="" class="sidebar-posts__link">
+                <div class="sidebar-posts__block">
+                  <img src="../img/aside5.jpg" alt="" class="sidebar-posts__image">
+                  <p class="sidebar-posts__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga expedita, dolorem molestiae nostrum architecto ipsam aliquam illo perferendis minus debitis laborum voluptates asperiores rem? Iusto aliquid natus adipisci similique magni!</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        <!-- SIDEBAR CATEGORIES -->
+        <div class="sidebar-cats">
+          <h3 class="sidebar-cats__title">Posts</h3>
+          <ul class="sidebar-cats__list">
+            <li class="sidebar-cats__item"><a href="" class="sidebar-cats__link">the lorem ipsum etc</a></li>
+            <li class="sidebar-cats__item"><a href="" class="sidebar-cats__link">the lorem ipsum etc</a></li>
+            <li class="sidebar-cats__item"><a href="" class="sidebar-cats__link">the lorem ipsum etc</a></li>
+            <li class="sidebar-cats__item"><a href="" class="sidebar-cats__link">the lorem ipsum etc</a></li>
+            <li class="sidebar-cats__item"><a href="" class="sidebar-cats__link">the lorem ipsum etc</a></li>
+          </ul>
+        </div>
       </aside>
     </div>
   </main>
